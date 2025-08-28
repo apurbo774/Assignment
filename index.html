@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emergency Service Directory</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center bg-white shadow px-6 py-4">
+    <div class="flex items-center gap-2">
+      <img src="assets/logo.png" alt="Logo" class="w-10 h-10">
+      <h1 class="text-xl font-bold text-green-700">Emergency Service</h1>
+    </div>
+    <div class="flex items-center gap-6 text-gray-700">
+      <!-- Heart -->
+      <div class="flex items-center gap-1">
+        <span id="heartCount" class="text-red-500 font-bold">0</span>
+        <span>❤</span>
+      </div>
+      <!-- Coins -->
+      <div class="flex items-center gap-1">
+        <span id="coinCount" class="font-bold">100</span>
+        <img src="assets/coin.png" alt="Coin" class="w-5 h-5">
+      </div>
+      <!-- Copy -->
+      <div class="flex items-center gap-1">
+        <span id="copyCount" class="font-bold">0</span>
+        <span class="bg-green-500 text-white px-2 py-1 rounded">Copy</span>
+      </div>
+    </div>
+  </nav>
+
+</body>
+</html>
