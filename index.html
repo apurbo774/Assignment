@@ -43,16 +43,21 @@
     </p>
   </section>
 
-  <!-- Helpline Cards Grid -->
-  <section class="p-6 flex justify-center">
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl w-full">
+
+<!-- Helpline Cards + Call History Section -->
+<section class="p-6 flex justify-center">
+  <div class="flex flex-col lg:flex-row gap-6 max-w-7xl w-full">
+
+    <!-- Helpline Cards Grid (Left) -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 flex-1">
 
       <!-- National Emergency -->
       <div class="bg-white p-6 rounded-xl shadow-md">
-        <div class="flex items-center space-x-3">
+        <div class="flex items-center justify-between">
           <img src="assets/emergency.png" alt="Emergency" class="w-10 h-10">
-          <h2 class="text-lg font-semibold">National Emergency Number</h2>
+          <i class="fa-regular fa-heart text-red-500 text-xl cursor-pointer"></i>
         </div>
+        <h2 class="text-lg font-semibold mt-2">National Emergency Number</h2>
         <p class="text-gray-500 text-sm mt-1">National Emergency</p>
         <p class="text-2xl font-bold mt-2">999</p>
         <span class="inline-block bg-gray-200 text-gray-600 text-xs px-2 py-1 rounded mt-2">All</span>
@@ -68,10 +73,11 @@
 
       <!-- Police -->
       <div class="bg-white p-6 rounded-xl shadow-md">
-        <div class="flex items-center space-x-3">
+        <div class="flex items-center justify-between">
           <img src="assets/police.png" alt="Police" class="w-10 h-10">
-          <h2 class="text-lg font-semibold">Police Helpline Number</h2>
+          <i class="fa-regular fa-heart text-red-500 text-xl cursor-pointer"></i>
         </div>
+        <h2 class="text-lg font-semibold mt-2">Police Helpline Number</h2>
         <p class="text-gray-500 text-sm mt-1">Police</p>
         <p class="text-2xl font-bold mt-2">999</p>
         <span class="inline-block bg-gray-200 text-gray-600 text-xs px-2 py-1 rounded mt-2">Police</span>
@@ -87,10 +93,11 @@
 
       <!-- Fire Service -->
       <div class="bg-white p-6 rounded-xl shadow-md">
-        <div class="flex items-center space-x-3">
+        <div class="flex items-center justify-between">
           <img src="assets/fire-service.png" alt="Fire Service" class="w-10 h-10">
-          <h2 class="text-lg font-semibold">Fire Service Number</h2>
+          <i class="fa-regular fa-heart text-red-500 text-xl cursor-pointer"></i>
         </div>
+        <h2 class="text-lg font-semibold mt-2">Fire Service Number</h2>
         <p class="text-gray-500 text-sm mt-1">Fire Service</p>
         <p class="text-2xl font-bold mt-2">999</p>
         <span class="inline-block bg-gray-200 text-gray-600 text-xs px-2 py-1 rounded mt-2">Fire</span>
@@ -106,10 +113,11 @@
 
       <!-- Ambulance -->
       <div class="bg-white p-6 rounded-xl shadow-md">
-        <div class="flex items-center space-x-3">
+        <div class="flex items-center justify-between">
           <img src="assets/ambulance.png" alt="Ambulance" class="w-10 h-10">
-          <h2 class="text-lg font-semibold">Ambulance Service</h2>
+          <i class="fa-regular fa-heart text-red-500 text-xl cursor-pointer"></i>
         </div>
+        <h2 class="text-lg font-semibold mt-2">Ambulance Service</h2>
         <p class="text-gray-500 text-sm mt-1">Ambulance</p>
         <p class="text-2xl font-bold mt-2">1994-999999</p>
         <span class="inline-block bg-gray-200 text-gray-600 text-xs px-2 py-1 rounded mt-2">Health</span>
@@ -125,10 +133,11 @@
 
       <!-- Women & Child Helpline -->
       <div class="bg-white p-6 rounded-xl shadow-md">
-        <div class="flex items-center space-x-3">
-          <img src="assets/heart.png" alt="Women & Child" class="w-10 h-10">
-          <h2 class="text-lg font-semibold">Women & Child Helpline</h2>
+        <div class="flex items-center justify-between">
+          <img src="assets/emergency.png" alt="Women & Child" class="w-10 h-10">
+          <i class="fa-regular fa-heart text-red-500 text-xl cursor-pointer"></i>
         </div>
+        <h2 class="text-lg font-semibold mt-2">Women & Child Helpline</h2>
         <p class="text-gray-500 text-sm mt-1">Women & Child Helpline</p>
         <p class="text-2xl font-bold mt-2">109</p>
         <span class="inline-block bg-gray-200 text-gray-600 text-xs px-2 py-1 rounded mt-2">Help</span>
@@ -142,12 +151,13 @@
         </div>
       </div>
 
-      <!-- Anti-Corruption -->
+      <!-- Anti-Corruption Helpline -->
       <div class="bg-white p-6 rounded-xl shadow-md">
-        <div class="flex items-center space-x-3">
+        <div class="flex items-center justify-between">
           <img src="assets/emergency.png" alt="Anti-Corruption" class="w-10 h-10">
-          <h2 class="text-lg font-semibold">Anti-Corruption Helpline</h2>
+          <i class="fa-regular fa-heart text-red-500 text-xl cursor-pointer"></i>
         </div>
+        <h2 class="text-lg font-semibold mt-2">Anti-Corruption Helpline</h2>
         <p class="text-gray-500 text-sm mt-1">Anti-Corruption</p>
         <p class="text-2xl font-bold mt-2">106</p>
         <span class="inline-block bg-gray-200 text-gray-600 text-xs px-2 py-1 rounded mt-2">Govt.</span>
@@ -163,10 +173,11 @@
 
       <!-- Electricity -->
       <div class="bg-white p-6 rounded-xl shadow-md">
-        <div class="flex items-center space-x-3">
+        <div class="flex items-center justify-between">
           <img src="assets/emergency.png" alt="Electricity" class="w-10 h-10">
-          <h2 class="text-lg font-semibold">Electricity Helpline</h2>
+          <i class="fa-regular fa-heart text-red-500 text-xl cursor-pointer"></i>
         </div>
+        <h2 class="text-lg font-semibold mt-2">Electricity Helpline</h2>
         <p class="text-gray-500 text-sm mt-1">Electricity Outage</p>
         <p class="text-2xl font-bold mt-2">16216</p>
         <span class="inline-block bg-gray-200 text-gray-600 text-xs px-2 py-1 rounded mt-2">Electricity</span>
@@ -182,10 +193,11 @@
 
       <!-- Brac -->
       <div class="bg-white p-6 rounded-xl shadow-md">
-        <div class="flex items-center space-x-3">
-          <img src="assets/brac.png" alt="Brac" class="w-10 h-10">
-          <h2 class="text-lg font-semibold">Brac Helpline</h2>
+        <div class="flex items-center justify-between">
+          <img src="assets/emergency.png" alt="Brac" class="w-10 h-10">
+          <i class="fa-regular fa-heart text-red-500 text-xl cursor-pointer"></i>
         </div>
+        <h2 class="text-lg font-semibold mt-2">Brac Helpline</h2>
         <p class="text-gray-500 text-sm mt-1">Brac</p>
         <p class="text-2xl font-bold mt-2">16445</p>
         <span class="inline-block bg-gray-200 text-gray-600 text-xs px-2 py-1 rounded mt-2">NGO</span>
@@ -201,10 +213,11 @@
 
       <!-- Bangladesh Railway -->
       <div class="bg-white p-6 rounded-xl shadow-md">
-        <div class="flex items-center space-x-3">
-          <img src="assets/Bangladesh-Railway.png" alt="Railway" class="w-10 h-10">
-          <h2 class="text-lg font-semibold">Bangladesh Railway Helpline</h2>
+        <div class="flex items-center justify-between">
+          <img src="assets/emergency.png" alt="Railway" class="w-10 h-10">
+          <i class="fa-regular fa-heart text-red-500 text-xl cursor-pointer"></i>
         </div>
+        <h2 class="text-lg font-semibold mt-2">Bangladesh Railway Helpline</h2>
         <p class="text-gray-500 text-sm mt-1">Bangladesh Railway</p>
         <p class="text-2xl font-bold mt-2">163</p>
         <span class="inline-block bg-gray-200 text-gray-600 text-xs px-2 py-1 rounded mt-2">Travel</span>
@@ -219,7 +232,27 @@
       </div>
 
     </div>
-  </section>
+
+<!-- Call History (Right) -->
+    <div id="history" class="bg-white p-6 rounded-lg shadow-md w-full lg:w-80 flex flex-col">
+      <div class="flex justify-between items-center mb-6">
+        <h2 class="text-xl font-bold flex items-center gap-2 text-gray-800">
+          <i class="fa-solid fa-clock"></i> Call History
+        </h2>
+        <button id="clearHistoryBtn" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-lg shadow">
+          Clear
+        </button>
+      </div>
+      <ul id="historyList" class="space-y-3 overflow-y-auto flex-1 pr-2">
+        <!-- Call history items will appear here -->
+      </ul>
+    </div>
+
+
+  </div>
+</section>
+
+
 
 </body>
 </html>
