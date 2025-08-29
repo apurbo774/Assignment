@@ -1,10 +1,10 @@
 (1)-What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
 Ans-
-- getElementById("id"): Finds only ONE element with that ID.
- Example: let box = document.getElementById("myBox");- getElementsByClassName("class"): Finds MANY elements with the same class (like an array).
- Example: let items = document.getElementsByClassName("list-item");- querySelector("css"): Finds the FIRST element that matches CSS selector.
- Example: let first = document.querySelector(".list-item");- querySelectorAll("css"): Finds ALL elements that match CSS selector (gives NodeList).
- Example: let all = document.querySelectorAll(".list-item");
+getElementById: Finds only ONE element with that ID.
+getElementsByClassName: Finds MANY elements with the same class (like an array).
+querySelector: Finds the FIRST element that matches CSS selector.
+querySelectorAll: Finds ALL elements that match CSS selector (gives NodeList).
+
 
 
 (2)- How do you create and insert a new element into the DOM?
@@ -18,8 +18,8 @@ Ans-
 
 (3)- What is Event Bubbling and how does it work?
  Ans-
-  Event bubbling means when you click a small element, the event goes up to its parent and then grandparent.
- Example: Click a button inside a div -> button gets click, then div also gets click
+Event bubbling means when you click a small element, the event goes up to its parent and then grandparent.
+Example: Click a button inside a div -> button gets click, then div also gets click
 
 
 
